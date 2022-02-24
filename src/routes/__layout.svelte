@@ -13,6 +13,10 @@
         text-align: center;
 	}
 
+    body {
+        background-color: var(--accent);
+    }
+
 	nav {
         background-color: black;
         color: var(--accent);
@@ -30,5 +34,11 @@
     /* Variables */
     :global(:root) {
         --accent: #F8B323;
+    }
+
+    /* global styles */
+    :global(a) {
+        text-decoration: underline;
+        color: black;
     }
 </style>
