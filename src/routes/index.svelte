@@ -50,6 +50,10 @@
         <p>Therefore donated:</p>
         <h2 class="counter">{formatNumber(counter.donatedEuros)} €</h2>
     </div>
+
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S8zhnXZdTFM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </main>
 
 <style>
@@ -61,5 +65,18 @@
 
     p {
        font-size: 1.5rem;
+    }
+
+    .video {
+        margin-top: 1rem;
+    }
+
+    iframe {
+        /* width / 1.778 = height */
+        width: 95vw; 
+        max-width: 750px;
+        max-height: 421.8px;
+        height: 53.5vw; /* 100/56.25 = 560/315 = 1.778 */  
+        border-radius: .5rem;
     }
 </style>
