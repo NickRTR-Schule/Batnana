@@ -15,7 +15,7 @@
 
 	nav {
         background-color: black;
-        color: #F8B323;
+        color: var(--accent);
         font-size: 1.5rem;
 		display: flex;
 		justify-content: space-between;
@@ -26,4 +26,9 @@
 	img {
 		width: 4rem;
 	}
+
+    /* Variables */
+    :global(:root) {
+        --accent: #F8B323;
+    }
 </style>
