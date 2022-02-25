@@ -46,8 +46,8 @@
 <main>
     <article>
         <h3 class="slogan">We will save the bats, while you're eating our tasty banana.</h3>
-        <p class="info">For every bought Batnana, we are going to donate 10 cents to the <a href="https://www.nabu.de/">Nabu</a> organisation, to ensure the protection of the variety of animal species.</p>
-        <img src="/Nabu-logo.png" alt="Nabu icon">
+        <p class="info">For every bought Batnana, we are going to donate 10 cents to the <a href="https://www.nabu.de/" target="_blank">Nabu</a> organisation, to ensure the protection of the variety of animal species.</p>
+        <a href="https://www.nabu.de/" target="_blank"><img src="/Nabu-logo.png" alt="Nabu icon"></a>
     </article>
     <hr>
     <div class="stats">
@@ -58,7 +58,7 @@
     </div>
 
     <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S8zhnXZdTFM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S8zhnXZdTFM" title="Bat eating a banana" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </main>
 
