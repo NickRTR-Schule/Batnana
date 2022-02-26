@@ -2,7 +2,7 @@
     import { onMount } from 'svelte';
 
     const bananaPrice = 0.5;
-    const boughtBananas = 823479;
+    const boughtBananas = new Date().getTime();
     const values = {
         boughtBananas,
         donatedEuros: boughtBananas * (bananaPrice * 0.2)
