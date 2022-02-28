@@ -6,7 +6,7 @@
     <slot></slot>
     <footer>
         <hr>
-        <p style="margin: .5rem;">All Numbers are examples, Batnana school project.</p>
+        <p style="margin: .5rem;">All Numbers are examples, Batnana is a school project.</p>
     </footer>
 </body>
 
