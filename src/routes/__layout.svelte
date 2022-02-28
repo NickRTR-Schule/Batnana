@@ -1,9 +1,13 @@
 <body>
     <nav>
-        <h1>Batnana</h1>
-        <img src="/favicon.svg" alt="">
+        <h1 on:click={() => {location.reload()}}>Batnana</h1>
+        <img src="/favicon.svg" alt="" on:click={() => {location.reload()}}>
     </nav>
     <slot></slot>
+    <footer>
+        <hr>
+        <p style="margin: .5rem;">All Numbers are examples, Batnana school project.</p>
+    </footer>
 </body>
 
 <style>
@@ -27,8 +31,13 @@
         padding: .5rem;
 	}
 
+    h1 {
+        cursor: pointer;
+    }
+
 	img {
 		width: 4rem;
+        cursor: pointer;
 	}
 
     /* Variables */
@@ -40,5 +49,9 @@
     :global(a) {
         text-decoration: underline;
         color: black;
+    }
+
+    :global(hr) {
+        border: 1px solid black;
     }
 </style>

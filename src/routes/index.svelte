@@ -8,7 +8,7 @@
         donatedEuros: boughtBananas * (bananaPrice * 0.2)
     }
     const duration = 1000; // duration of counting
-    const minspeed = 10; // minimal animation speed
+    const minspeed = 10; // minimal counting speed
 
     let counter = {
         boughtBananas: 0,
@@ -46,13 +46,13 @@
 <main>
     <article>
         <h3 class="slogan">We will save the bats, while you're eating our tasty banana.</h3>
-        <p class="info">For every bought Batnana, we are going to donate 10 cents to the <a href="https://www.nabu.de/" target="_blank">Nabu</a> organisation, to ensure the protection of the variety of animal species.</p>
+        <p class="info">For every bought Batnana, we are going to donate 10 cents to the <a href="https://www.nabu.de/" target="_blank">Nabu</a> organisation, in order to ensure the protection of the variety of animal species.</p>
         <a href="https://www.nabu.de/" target="_blank"><img src="/Nabu-logo.png" alt="Nabu icon"></a>
     </article>
     <hr>
     <div class="stats">
         <p>Sold Bananas:</p>
-        <h2 class="counterValue">{counter.boughtBananas}</h2>
+        <h2 class="counterValue">{formatNumber(counter.boughtBananas)}</h2>
         <p>Therefore donated money:</p>
         <h2 class="counterValue">{formatNumber(counter.donatedEuros)} €</h2>
     </div>
@@ -84,10 +84,6 @@
         border-radius: 1rem;
     }
 
-    hr {
-        border: 1px solid black;
-    }
-
     .counterValue {
         font-size: 3rem;
         font-weight: bold;
@@ -101,6 +97,7 @@
 
     .video {
         margin-top: 1rem;
+        margin-bottom: .25rem;
     }
 
     iframe {
