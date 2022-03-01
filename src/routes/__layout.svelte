@@ -6,14 +6,15 @@
     <slot></slot>
     <footer>
         <hr>
-        <p style="margin: .5rem;">All Numbers are examples, Batnana is a school project.</p>
+        <p style="margin: .5rem;">©2022 Nick Reutlinger, Batnana is a school project.</p>
     </footer>
-</body>
+</body> 
 
 <style>
     * {
 		margin: 0;
-		font-family: Arial, Helvetica, sans-serif;
+		/* font-family: Arial, Helvetica, sans-serif; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
 	}
 
