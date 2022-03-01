@@ -64,7 +64,6 @@
 <style>
     main {
         padding-top: 1rem;
-        margin: 0 .5rem;
     }
 
     article h3 {

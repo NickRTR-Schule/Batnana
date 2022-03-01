@@ -5,7 +5,7 @@
     </nav>
     <main><slot></slot></main>
     <footer>
-        <p style="margin: .5rem;">©2022 Nick Reutlinger, Batnana is a school project.</p>
+        <p>©2022 Nick Reutlinger, Batnana is a school project.</p>
     </footer>
 </body> 
 
@@ -23,6 +23,15 @@
     main {
         margin: 0 auto;
         max-width: 900px;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    footer {
+        background-color: bisque;
+        padding: .5rem;
     }
 
 	nav {
@@ -60,6 +69,6 @@
         border: 4px solid black;
         border-radius: 2rem;
         padding: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem !important;
     }
 </style>
