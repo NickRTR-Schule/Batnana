@@ -3,9 +3,8 @@
         <h1 on:click={() => {location.reload()}}>Batnana</h1>
         <img src="/favicon.svg" alt="" on:click={() => {location.reload()}}>
     </nav>
-    <slot></slot>
+    <main><slot></slot></main>
     <footer>
-        <hr>
         <p style="margin: .5rem;">©2022 Nick Reutlinger, Batnana is a school project.</p>
     </footer>
 </body> 
@@ -13,13 +12,17 @@
 <style>
     * {
 		margin: 0;
-		/* font-family: Arial, Helvetica, sans-serif; */
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
         text-align: center;
 	}
 
     body {
         background-color: var(--accent);
+    }
+    
+    main {
+        margin: 0 auto;
+        max-width: 900px;
     }
 
 	nav {
@@ -52,7 +55,11 @@
         color: black;
     }
 
-    :global(hr) {
-        border: 1px solid black;
+    :global(.card) {
+        background-color: bisque;
+        border: 4px solid black;
+        border-radius: 2rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
     }
 </style>
