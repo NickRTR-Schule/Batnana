@@ -14,10 +14,13 @@
 		margin: 0;
         font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
         text-align: center;
-	}
+	}   
 
     body {
         background-color: var(--accent);
+        background-image: url(/banana.jpg);
+        background-size: contain;
+        background-position: center;
     }
     
     main {
