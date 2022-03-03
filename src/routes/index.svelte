@@ -57,7 +57,7 @@
     </div>
     <div class="card">
         <h2>Our Motivation:</h2>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S8zhnXZdTFM" title="Bat eating a banana" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/S8zhnXZdTFM" title="Bat eating a banana" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </main>
 
@@ -95,10 +95,10 @@
 
     iframe {
         /* width / 1.778 = height */
-        width: 85vw; 
+        width: 80vw; 
         max-width: 800px;
         max-height: 449.94px;
-        height: 47.8vw; /* 100/56.25 = 560/315 = 1.778 */  
+        height: 45vw; /* 100/56.25 = 560/315 = 1.778 */  
         border-radius: .5rem;
     }
 </style>
