@@ -101,4 +101,10 @@
         height: 45vw; /* 100/56.25 = 560/315 = 1.778 */  
         border-radius: .5rem;
     }
+
+    @media only screen and (max-width: 600px) {
+        .stats h2 {
+            font-size: 2.2rem;
+        }
+    }
 </style>
