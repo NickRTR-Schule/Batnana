@@ -33,7 +33,7 @@
     }
 
     footer {
-        background-color: bisque;
+        background-color: var(--card);
         padding: .5rem;
     }
 
@@ -59,6 +59,7 @@
     /* Variables */
     :global(:root) {
         --accent: #F8B323;
+        --card: beige;
     }
 
     /* global styles */
@@ -68,7 +69,7 @@
     }
 
     :global(.card) {
-        background-color: bisque;
+        background-color: var(--card);
         border: 4px solid black;
         border-radius: 2rem;
         padding: 1rem;
