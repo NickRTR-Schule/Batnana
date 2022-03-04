@@ -45,7 +45,7 @@
 
 <main>
     <article class="card">
-        <h3 class="slogan">We will save the bats, while you're eating our tasty banana.</h3>
+        <h1 class="slogan">We will save the bats, while you're eating our tasty banana.</h1>
         <p class="info">For every bought Batnana, we are going to donate 10 cents to the <a href="https://www.nabu.de/" target="_blank">Nabu</a> organisation, in order to ensure the protection of the variety of animal species.</p>
         <a href="https://www.nabu.de/" target="_blank"><img src="/Nabu-logo.png" alt="Nabu icon"></a>
     </article>
@@ -55,7 +55,7 @@
         <p>Therefore donated money:</p>
         <h2 class="counterValue">{formatNumber(counter.donatedEuros)} €</h2>
     </div>
-    <div class="card">
+    <div class="motivation card">
         <h2>Our Motivation:</h2>
         <iframe src="https://www.youtube-nocookie.com/embed/S8zhnXZdTFM" title="Bat eating a banana" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -66,7 +66,7 @@
         padding-top: 1rem;
     }
 
-    article h3 {
+    article h1 {
         margin: 0;
     }
 
@@ -91,6 +91,11 @@
     .stats p {
         margin: 0;
         font-size: 1.5rem;
+    }
+
+    .motivation h2 {
+        margin: 0;
+        margin-bottom: .9rem;
     }
 
     iframe {
