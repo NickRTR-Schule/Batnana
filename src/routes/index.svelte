@@ -7,7 +7,7 @@
         boughtBananas,
         donatedEuros: boughtBananas * (bananaPrice * 0.2)
     }
-    const duration = 1000; // duration of counting
+    const duration = 1500; // duration of counting
     const minspeed = 10; // minimal counting speed
 
     let counter = {
