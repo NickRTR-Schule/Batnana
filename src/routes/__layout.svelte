@@ -5,7 +5,7 @@
     </nav>
     <main><slot></slot></main>
     <footer>
-        <p>©2022 Nick Reutlinger, Batnana is a school project.</p>
+        <p>©2023 Nick Reutlinger, Batnana is a school project.</p>
     </footer>
 </body> 
 
